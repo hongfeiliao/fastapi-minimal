@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: fastapi-minimal:latest
+    restart: always
+    ports: 
+      - "38980:8000"
+
